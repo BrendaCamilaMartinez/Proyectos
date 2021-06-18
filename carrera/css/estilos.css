@@ -1,0 +1,93 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap'); */
+@font-face {
+  src: url('../Fonts/Roboto/Roboto-Light.ttf');
+  font-family: 'Roboto';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #ffffff;
+  background-image: url('../img/cami.jpeg');
+  
+
+  background-repeat: no-repeat;
+  background-position: center -50px;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+}
+
+body{
+  background-image: url('../img/5.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover ;
+  
+}
+h1 {
+  font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  background-color: rgb(202, 231, 245);
+  color: rgb(26, 39, 30);
+  text-align: center;
+
+  margin: 0px 0px 1px 1px;
+  background-image: url('../img/5.jpg');
+  background-position: center -50px;
+  margin-right: 1000px;
+  
+  
+}
+
+h2{
+  font-family: 'Roboto', unset;
+
+  font-weight: 300;
+  text-align: center;
+  text-decoration: underline;
+  line-height: 1.8;
+}
+h3{
+  font-family: 'Roboto', unset;
+
+  font-weight: 300;
+  text-align: center;
+  
+  line-height: 1.8;
+
+}
+
+p {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin: 20px 0px 7px 10px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 100px;
+}
+
+div {
+  text-align: justify;
+}
+
+ul,li {
+  text-align: center;
+  line-height: 1.8;
+}
+
+footer {
+  background-color: rgb(255, 252, 220);
+  padding: 1px;
+  text-align: center;
+}
